@@ -6,7 +6,8 @@
 	"license": "MIT",
 	"scripts": {
 		"serve": "live-server public/",
-		"build": "webpack",
+		"build:dev": "webpack",
+		"build:prod": "webpack -p --env production",
 		"dev-server": "webpack-dev-server",
 		"test": "jest --config=jest.config.json"
 	},
@@ -50,6 +51,7 @@
 		"babel-loader": "^8.1.0",
 		"babel-plugin-transform-object-rest-spread": "^6.26.0",
 		"jest": "^25.5.4",
+		"mini-css-extract-plugin": "^0.11.2",
 		"webpack-cli": "^3.3.12"
 	}
 }
