@@ -5,7 +5,7 @@ module.exports = (env) => {
 	const isProduction = env === 'production';
 
 	return {
-		entry: './src/app.js',
+		entry: '/Users/diwakar/react-course-projects/expensify-app/src/app.js',
 		output: {
 			path: path.join(__dirname, 'public'),
 			filename: 'bundle.js',
