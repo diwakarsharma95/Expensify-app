@@ -6,13 +6,13 @@ export default [
 		description: 'Gum',
 		note: '',
 		amount: 195,
-		createdAt: moment(0),
+		createdAt: 0,
 	},
 	{
 		id: '2',
 		description: 'Rent',
 		note: '',
-		amount: 19500,
+		amount: 109500,
 		createdAt: moment(0).subtract(4, 'days').valueOf(),
 	},
 	{

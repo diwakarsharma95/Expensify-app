@@ -12,14 +12,14 @@ exports[`should render ExpenseList with expenses 1`] = `
 <div>
   <ExpenseListItem
     amount={195}
-    createdAt={"1970-01-01T00:00:00.000Z"}
+    createdAt={0}
     description="Gum"
     id="1"
     key="1"
     note=""
   />
   <ExpenseListItem
-    amount={19500}
+    amount={109500}
     createdAt={-345600000}
     description="Rent"
     id="2"
